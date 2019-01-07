@@ -7,7 +7,6 @@ let toggle = false;
 btn.textContent = 'Show message';
 msg.style.visibility = 'hidden';
 det.setAttribute("value",getYmd());
-console.log();
 
 
 function getYmd() {
@@ -29,4 +28,3 @@ let click = () => {
 }
 
 btn.addEventListener('click', click);
-console.log();
